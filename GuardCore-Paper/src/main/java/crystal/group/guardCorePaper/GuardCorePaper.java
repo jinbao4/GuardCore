@@ -13,13 +13,13 @@ public final class GuardCorePaper extends JavaPlugin {
         registerListeners();
         registerCommands();
 
-        getLogger().info("GuardCore enabled.")
+        getLogger().info("GuardCore enabled.");
     }
 
     @Override
     public void onDisable() {
-        instace = null();
-        getLogger().info("GuardCore disabled.")
+        instance = null;
+        getLogger().info("GuardCore disabled.");
     }
     private void loadConfig() {
         saveDefaultConfig();
