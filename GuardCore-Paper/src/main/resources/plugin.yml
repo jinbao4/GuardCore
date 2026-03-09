@@ -1,0 +1,4 @@
+name: GuardCore-Paper
+version: '1.0-SNAPSHOT'
+main: crystal.group.guardCorePaper.GuardCorePaper
+api-version: '1.21'
